@@ -15,6 +15,9 @@ img {
 html {
     scroll-behavior: smooth;
 }
+body {
+    overflow-x: hidden;
+}
 
 .pt-sans {
     font-family: "PT Sans", sans-serif;
@@ -175,11 +178,12 @@ html {
 .hero__text-container h1 {
     letter-spacing: 0.3rem;
     padding-bottom: 0.5rem;
+    line-height: 1.2;
 }
 .hero__text-container p {
     font-size: 2rem;
     font-style: italic;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
 }
 .hero__text-container ul {
     color: #bf367c;
@@ -592,9 +596,9 @@ html {
     max-width: 98%;
 }
 .product__price {
-    line-height: 100%;
+    line-height: 99px;
     color: #fff;
-    font-size: 9rem;
+    font-size: 95px;
     position: absolute;
     top: 0;
     right: 12%;

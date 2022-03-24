@@ -52,17 +52,18 @@
 @media only screen and (max-width: 1220px) {
     .footer__form-and-product {
         flex-wrap: wrap;
+        padding-top: 50px;
     }
     .footer__form-container {
         order: 2;
     }
     .footer__product-container {
-        order: 1;
-        padding-top: 40px;
-        bottom: -5rem;
+        display: none;
     }
     .footer__flower-and-water {
-        bottom: 1200px;
+        bottom: 600px;
+        max-width: 200px;
+        z-index: -1;
     }
     .footer__logo-and-text {
         padding: 0 150px;
@@ -179,10 +180,6 @@
     .water-splash-and-lips {
         max-width: 600px;
         bottom: -10%;
-    }
-    .footer__flower-and-water {
-        max-width: 190px;
-        bottom: 1250px;
     }
     .footer__logo-and-text {
         padding: 0 100px;
@@ -330,7 +327,7 @@
         right: 10%;
     }
     .footer__flower-and-water {
-        bottom: 1000px;
+        display: none;
     }
 }
 
