@@ -1,4 +1,4 @@
-$(document).ready(function() {
+document.addEventListener("DOMContentLoaded", function() {
     // slider
     $('.slides-container').slick({
         arrows: true,
@@ -6,6 +6,7 @@ $(document).ready(function() {
         prevArrow: ('.prevous-arrow'),
     });
     
+    // water next to bottle
     const productAndWaterHeight = $('.product').height();
     $(".water-behind-product-absolute-part-img").css('height', productAndWaterHeight);
     
