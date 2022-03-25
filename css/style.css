@@ -15,7 +15,9 @@ img {
 html {
     scroll-behavior: smooth;
 }
-body {
+body,
+main,
+footer {
     overflow-x: hidden;
 }
 
